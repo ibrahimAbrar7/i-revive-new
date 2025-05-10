@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --swiper-theme-color: #99b760;
+    /* Sets Swiper's default color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background:white;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --swiper-theme-color: #99b760;
+  /* Applies to navigation arrows */
+}
+
+.swiper-pagination-bullet {
+  background-color: #99b760 !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #99b760 !important;
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #99b760 !important;
+  /* Custom color for navigation arrows */
+}
+/* Main card container */
+.card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-container .overlay-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 63%;
+  background-color: rgba(66, 66, 66, 0.9);
+  transition: transform 0.3s ease-in-out;
+  pointer-events: none;
+
+}.card-container .overlay-top{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 37%;
+  transition: transform 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+/* Top overlay (slides down) */
+.card-container .overlay-top {
+  top: 0;
+  z-index: 20;
+  transform: translateY(-100%);
+  background-color: #99b76080;
+}
+
+/* Bottom overlay (slides up) */
+.card-container .overlay-bottom {
+  bottom: 0;
+  z-index: 10;
+  transform: translateY(100%);
+}
+
+/* Hover effect to slide the overlays to 50% height */
+.card-container:hover .overlay-top {
+  transform: translateY(0);
+}
+
+.card-container:hover .overlay-bottom {
+  transform: translateY(0);
+}
+.fontClass{
+  font-family: "Open Sans", sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif !important;
+}
+.decorated-heading {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #99b760;
+  font-weight: 600;
+}
+
+.decorated-heading::before,
+.decorated-heading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 3.5rem;
+  height: 1px;
+  background-color: #b6cba1;
+}
+
+.decorated-heading::before {
+  right: 100%;
+  margin-right: 1rem;
+}
+
+.decorated-heading::after {
+  left: 100%;
+  margin-left: 1rem;
+}
+@media (min-width: 510px) and (max-width: 639px) {
+  .card-container .overlay-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 53%;
+    background-color: rgba(66, 66, 66, 0.9);
+    transition: transform 0.3s ease-in-out;
+    pointer-events: none;
+  
+  }.card-container .overlay-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 47%;
+    transition: transform 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+}
+/* Custom CSS targeting Swiper Pagination */
+.swiper-pagination {
+  margin-top: 20px !important;
+}
+
+.swiper-pagination-bullets {
+  margin-top: 20px !important;
+}
+.scrollbar-hide {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display:none;
+}
