@@ -85,7 +85,7 @@ export default function OurTeam() {
                       )}
                     </div>
                     {/* Hover Overlay */}
-                    <div className="absolute inset-0 border border-gray-400 bg-primary dark:bg-gray-900/80 text-center px-4 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute inset-0 border border-gray-400 bg-primary text-center px-4 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-1">
                         {member.name}
                       </h3>
