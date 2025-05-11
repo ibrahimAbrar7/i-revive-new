@@ -18,7 +18,12 @@ const slides = [
     ),
     paragraph: (
       <>
-        Detox the Body & Revive <span className="sm:hidden block my-0"> <br/> </span> the Soul.
+        Detox the Body & Revive{" "}
+        <span className="sm:hidden block my-0">
+          {" "}
+          <br />{" "}
+        </span>{" "}
+        the Soul.
       </>
     ),
   },
@@ -26,15 +31,11 @@ const slides = [
     image: "/banner1.jpeg",
     heading: (
       <>
-        Join Our Course- Learn,  <br />
+        Join Our Course- Learn, <br />
         Practice and Grow With Us.
       </>
     ),
-    paragraph: (
-      <>
-        Empowering Future Healers.
-      </>
-    ),
+    paragraph: <>Empowering Future Healers.</>,
   },
 ];
 
@@ -127,17 +128,16 @@ const HeroSection = () => {
 
         {/* Dynamic Content */}
         <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-20 w-full max-w-7xl px-4">
-
           <h2 className="font-semibold mb-6 text-3xl md:text-3xl lg:text-[4.3rem] lg:leading-none leading-tight font-serif">
             {slides[index].heading}
           </h2>
-          <p className="text-lg sm:text-xl lg:text-2xl mb-8 max-w-5xl leading-none">
+          <p className="text-lg sm:text-xl lg:text-2xl mb-8 max-w-5xl mx-auto leading-none">
             {slides[index].paragraph}
           </p>
 
-          <Link href="/treatment-plans">
+          <Link href={index === 0 ? "/treatment-plans" : "/courses"}>
             <button className="bg-primary text-white px-6 py-2 md:px-12 md:py-4 rounded-full text-[clamp(1.2rem, 2vw, 1.5rem)] hover:bg-white hover:text-hovershed border-[2px] border-green-400 hover:border-hovershed transition">
-               Treatment Plans
+              {index === 0 ?  "Treatment Plans" : "Explore Courses"}
             </button>
           </Link>
         </div>
