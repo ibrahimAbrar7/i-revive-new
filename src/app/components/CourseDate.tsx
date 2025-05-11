@@ -19,16 +19,16 @@ export function CourseDate() {
     {
       level: 1,
       title: "Hijama Practitioner Launchpad",
-      dates: ["June 5, 2025", "June 15, 2025", "July 5, 2025"],
+      dates: ["28th May to 1st June","6th July to 10th July"],
     },
     {
       level: 2,
       title: "Hijama Practitioner Pro",
-      dates: ["July 10, 2025", "July 20, 2025", "August 5, 2025"],
+      dates: ["6th August","10th November"],
     },
     {
       level: 3,
-      title: "Hijama Pro Plus",
+      title: "Personal Mentorship",
       isWhatsApp: true,
       whatsappText: "Click to contact us on WhatsApp",
       whatsappUrl: "https://wa.me/+918009944335",

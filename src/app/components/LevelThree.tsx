@@ -12,7 +12,7 @@ export default function LevelThree() {
           {/* Left Side: Course Content */}
           <div className="lg:order-1 lg:col-span-1">
             <h1 className="text-2xl md:text-4xl font-semibold text-gray-900 leading-tight">
-              Personal Intensive Mentorship Program
+              Personal Mentorship
             </h1>
             <div className="mt-6">
               <ul className="mt-2 space-y-2 text-gray-700">
@@ -37,7 +37,7 @@ export default function LevelThree() {
                 <iframe
                   className="absolute top-0 left-0 w-full h-full rounded-lg"
                   src="https://www.youtube.com/embed/CdpiQ3ZZ8x8"
-                  title="Hijama Practitioner Course"
+                  title="Personal Mentorship"
                   allowFullScreen
                 ></iframe>
               </div>
@@ -81,7 +81,7 @@ export default function LevelThree() {
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg"
               src="https://www.youtube.com/embed/CdpiQ3ZZ8x8"
-              title="Hijama Practitioner Course"
+              title="Personal Mentorship"
               allowFullScreen
             ></iframe>
           </div>

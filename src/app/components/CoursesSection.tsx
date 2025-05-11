@@ -27,14 +27,14 @@ const courses = [
   },
   {
     level: "Level 3",
-    title: "Hijama Practitioner Pro Plus",
+    title: "Personal Mentorship",
     image: "/cup-img.png",
     features: [
       "Proficiency: Master",
       "Duration: 4 weeks",
       "Format: 15 Hours of One-on-One Training & Mentoring, Live Cases, and Intern experience under supervision",
     ],
-    link: "/",
+    link: "/courses/level-three",
   },
 ];
 
