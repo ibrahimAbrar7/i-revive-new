@@ -67,10 +67,10 @@ export default function LevelThree() {
               </div>
               <div className="flex justify-center">
                 <Link
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdE3IeK4Ztz_3DCkcqO2bIkieNq3vAxCMF7reIAyH0skP_RfA/viewform?pli=1" target="_blank"
+                  href="https://wa.me/+918009944335"
                   className="bg-[#557a1f] text-white mt-4 md:mt-6 px-6 py-2 rounded-md border border-green-300 hover:bg-white hover:text-hovershed transition-all duration-300"
                 >
-                  Register Now
+                  Click to contact on Whatsapp
                 </Link>
               </div>
             </div>

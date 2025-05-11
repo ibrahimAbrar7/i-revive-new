@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion"; // Ensure motion is correctly imported
 import {
-  FaUserMd,
-  FaBriefcaseMedical,
-  FaHeartbeat,
-  FaUsers,
+  FaUserMd, 
+  FaShieldAlt,
+  FaUserNurse,
+  FaHandsHelping,
 } from "react-icons/fa"; // Ensure icons are imported correctly
 
 const WhyChooseUs = () => {
@@ -57,33 +57,33 @@ const WhyChooseUs = () => {
             icon: (
               <FaUserMd className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
             ),
-            title: "Licensed Therapist",
+            title: "Certified and Experienced Practitioners",
             description:
-              "Our licensed therapists are expertly trained in Hijama, ensuring safe, effective treatments tailored to your wellness needs.",
+              "Our team is composed of certified Hijama practitioners with extensive experience, backed by collaboration with medical professionals to ensure safe, effective and informed care.",
           },
           {
             icon: (
-              <FaBriefcaseMedical className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
+              <FaShieldAlt  className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
             ),
-            title: "Personalized Treatment",
+            title: "Top-Tier Hygiene and Client Privacy",
             description:
-              "We offer personalized Hijama treatments tailored to your specific wellness needs, ensuring the best results for your health and comfort.",
+              "We maintain the highest standards of hygiene and strict confidentiality, comparable to modern medical facilities, to ensure your safety, dignity and peace of mind during every session.",
           },
           {
             icon: (
-              <FaHeartbeat className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
+              <FaUserNurse  className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
             ),
-            title: "Therapy Goals",
+            title: "Female-Centric Care and Comfort",
             description:
-              "Our therapy goals are to promote natural healing, relieve pain, improve circulation, and restore balance to enhance your overall wellness.",
+              "We provide dedicated private booths for all female clients, complete with gowns, and ensure that only female practitioners attend to female clients, creating a respectful, safe, and modest environment",
           },
           {
             icon: (
-              <FaUsers className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
+              <FaHandsHelping  className="text-primary text-6xl mb-4 transition duration-300 group-hover:scale-110 group-hover:text-white" />
             ),
-            title: "Experienced Staff",
+            title: "Holistic and Personalized Approach",
             description:
-              "Our experienced staff is skilled in Hijama therapy, committed to delivering safe, effective treatments tailored to your individual needs for optimal health and well-being.",
+              "We look beyond symptoms, identifying root causes of illness — whether physical, lifestyle-related, or metaphysical — and offer a personalized plan integrating Hijama, nutrition, lifestyle adjustments and where needed, Ruqyah guidance for comprehensive healing.",
           },
         ].map((feature, index) => (
           <motion.div

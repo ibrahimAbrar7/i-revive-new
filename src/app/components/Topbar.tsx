@@ -1,15 +1,11 @@
 import {  Instagram, Youtube } from "lucide-react";
 import { FaLocationDot, FaUserDoctor } from "react-icons/fa6";
-import {FaFacebookF, FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 import { memo } from "react";
 
 const socialLinks = [
-  {
-    href: "https://www.facebook.com/people/I-Revive/100083075205059/?rdid=OXQ6cFQ5pYJIJCTH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16BDece5wc%2F",
-    icon: <FaFacebookF size={22} />,
-    label: "Facebook",
-  },
+  
   {
     href: "https://www.instagram.com/i.revive_hyd?igsh=MXB3aXllMmk2ZXFzZQ==",
     icon: <Instagram size={22} />,
@@ -48,14 +44,11 @@ const Topbar = () => {
             title="Female Therapist"
           />
         </div>
-        <div className="flex space-x-4 justify-center items-center">
-          <Link href="tel:+918009944335" className="lg:flex items-center text-lg hidden">
+        <div className="flex space-x-4 justify-center items-center lg:pr-5">
+          <Link href="tel:+918009944335" className="lg:flex items-center text-lg hidden mr-2">
             <FaPhoneAlt size={16} className="text-primary mr-1" />
             800-9944-335
           </Link>
-        </div>
-
-        <div className="flex space-x-4 justify-center items-center pr-5">
           {socialLinks.map(({ href, icon, label }) => (
             <Link
               key={label}

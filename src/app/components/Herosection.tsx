@@ -135,9 +135,9 @@ const HeroSection = () => {
             {slides[index].paragraph}
           </p>
 
-          <Link href="/courses">
+          <Link href="/treatment-plans">
             <button className="bg-primary text-white px-6 py-2 md:px-12 md:py-4 rounded-full text-[clamp(1.2rem, 2vw, 1.5rem)] hover:bg-white hover:text-hovershed border-[2px] border-green-400 hover:border-hovershed transition">
-              Explore Courses
+               Treatment Plans
             </button>
           </Link>
         </div>
