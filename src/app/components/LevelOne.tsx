@@ -44,7 +44,7 @@ export default function LevelOne() {
 
               {/* Paragraph: After video on mobile, before video on desktop */}
               <div className="lg:hidden order-2 mt-4 text-gray-700">
-                <p>
+                <p className="text-justify">
                   Learn Hijama with our comprehensive Level One course, designed
                   for beginners and aspiring practitioners...
                   <br />
@@ -55,7 +55,7 @@ export default function LevelOne() {
               </div>
 
               <div className="hidden lg:block lg:order-1 text-gray-700">
-                <p>
+                <p className="text-justify">
                   Learn Hijama with our comprehensive Level One course, designed
                   for beginners and aspiring practitioners...
                   <br />

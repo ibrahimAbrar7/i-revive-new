@@ -34,7 +34,7 @@ const LevelTwo = () => {
                 </li>
               </ul>
               <div className="mt-4 text-gray-700">
-                <p>
+                <p className="text-justify">
                   Building upon Level One, this course advances practitioners&apos;
                   proficiency in Hijama therapy...
                 </p>

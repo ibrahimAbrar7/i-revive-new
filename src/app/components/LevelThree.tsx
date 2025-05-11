@@ -44,7 +44,7 @@ export default function LevelThree() {
 
               {/* Paragraph: After video on mobile, before video on desktop */}
               <div className="lg:hidden order-2 mt-4 text-gray-700">
-                <p>
+                <p className="text-justify">
                   Take your Hijama expertise to the next level with our Level 3
                   program, designed for those seeking mastery in Hijama and
                   holistic health practices...
@@ -55,7 +55,7 @@ export default function LevelThree() {
                 </p>
               </div>
               <div className="hidden lg:block lg:order-1 text-gray-700">
-                <p>
+                <p className="text-justify">
                   Take your Hijama expertise to the next level with our Level 3
                   program, designed for those seeking mastery in Hijama and
                   holistic health practices...
