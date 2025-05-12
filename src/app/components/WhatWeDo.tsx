@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { whatWeDoData } from "../../data/whatWeDoData";
 import Link from "next/link";
 
-const WhatWeDo = ({ limit = 8 ,showMoreButton = true}) => {
+const WhatWeDo = ({ limit = 8, showMoreButton = true }) => {
   // Slice the data to show only the first 'limit' number of plans
   const displayPlans = whatWeDoData.slice(0, limit);
 
@@ -46,17 +46,18 @@ const WhatWeDo = ({ limit = 8 ,showMoreButton = true}) => {
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="w-full h-full object-cover transition-transform duration-700 ease-in-out md:group-hover:scale-110"
+                priority={index === 0} // Adds priority to the first image in the grid (or whichever image you want)
               />
             </div>
 
             <div className="relative bg-white text-black p-4 overflow-hidden flex flex-col flex-1 justify-between">
-              <h3 className="text-xl text-left font-semibold font-serif relative z-10 transition-colors duration-300 group-hover:text-white">
+              <h3 className="text-xl text-center font-semibold font-serif relative z-10 transition-colors duration-300 group-hover:text-white">
                 {service.title}
               </h3>
               <p className="mt-3 text-base text-center flex-1 relative z-10 group-hover:text-white">
                 {service.description}
               </p>
-              <Link href={`/treatment-plans/${service.slug}`} >
+              <Link href={`/treatment-plans/${service.slug}`}>
                 <button className="mt-4 bg-primary text-white py-3 px-5 rounded-full group-hover:bg-white group-hover:text-hovershed border group-hover:border-hovershed transition relative z-10 group-hover:text-primary">
                   Read More
                 </button>

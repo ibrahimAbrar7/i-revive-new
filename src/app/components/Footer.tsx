@@ -44,6 +44,7 @@ const Footer = () => {
                 src="/i-revive-logof.avif"
                 alt="i-REVIVE Logo"
                 fill
+                sizes="192px"
                 className="object-contain"
                 priority
               />
@@ -94,7 +95,9 @@ const Footer = () => {
 
         {/* Services */}
         <div>
-          <h4 className="text-white font-semibold text-2xl mb-4">Treatment Plans</h4>
+          <h4 className="text-white font-semibold text-2xl mb-4">
+            Treatment Plans
+          </h4>
           <ul className="space-y-2">
             {services.map((service, idx) => (
               <li key={idx}>
