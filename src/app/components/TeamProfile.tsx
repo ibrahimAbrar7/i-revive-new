@@ -15,7 +15,7 @@ export default function TeamProfile({
   image,
 }: TeamProfileProps) {
   return (
-    <section className="bg-white dark:bg-gray-950 py-12">
+    <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-10">
           {/* Profile Image */}
@@ -33,13 +33,13 @@ export default function TeamProfile({
 
           {/* Text Content */}
           <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white font-montserrat mb-2">
+            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 font-montserrat mb-2">
               {name}
             </h1>
-            <h2 className="text-2xl sm:text-3xl text-green-600 dark:text-green-400 font-lora mb-4">
+            <h2 className="text-2xl sm:text-3xl text-green-600 font-lora mb-4">
               {qualification}
             </h2>
-            <p className="text-md sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed font-lora text-justify">
+            <p className="text-md sm:text-lg text-gray-700 leading-relaxed font-lora text-justify">
               <strong>{name}</strong>, {description}
             </p>
           </div>

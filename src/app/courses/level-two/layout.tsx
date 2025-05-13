@@ -12,17 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Advanced Hijama Course – Level 2 Training in Hyderabad | Hands-On Cupping Therapy Certification",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Enroll in the Level 2 Advanced Hijama Training Course in Hyderabad. Gain in-depth hands-on experience  and advanced theoretical knowledge, including 7 days of internship at i-Revive Wellness Clinic",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Advanced Hijama course Hyderabad",
+  "Level 2 cupping therapy training",
+  "Hijama certification program",
+  "Hijama internship Hyderabad",
+  "hands-on cupping training",
+  "Hijama practitioner course",
+  "certified cupping course",
+  "wellness clinic internship",
+  "i-Revive Hijama training",
+  "expert Hijama techniques"
+],
+
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Advanced Hijama Course – Level 2 Training in Hyderabad | Hands-On Cupping Therapy Certification",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Enroll in the Level 2 Advanced Hijama Training Course in Hyderabad. Gain in-depth hands-on experience  and advanced theoretical knowledge, including 7 days of internship at i-Revive Wellness Clinic",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Advanced Hijama Course – Level 2 Training in Hyderabad | Hands-On Cupping Therapy Certification",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Enroll in the Level 2 Advanced Hijama Training Course in Hyderabad. Gain in-depth hands-on experience  and advanced theoretical knowledge, including 7 days of internship at i-Revive Wellness Clinic",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

@@ -98,12 +98,12 @@ const WhyChooseUs = () => {
             <div className="absolute inset-0 bg-primary w-0 h-full left-0 top-0 transition-all duration-500 ease-in-out group-hover:w-full"></div>
 
             {/* Content stays on top */}
-            <div className="relative z-10">
+            <div className="relative z-10 flex flex-col items-center text-center">
               {feature.icon}
-              <h4 className="text-xl md:text-2xl font-semibold text-gray-900 group-hover:text-white mt-4 transition-colors duration-500">
+              <h4 className="text-xl md:text-2xl font-semibold text-gray-900 group-hover:text-white mt-4 transition-colors duration-500 ">
                 {feature.title}
               </h4>
-              <p className="text-gray-600 group-hover:text-gray-100 text-lg mt-3 leading-relaxed transition-colors duration-500">
+              <p className="text-gray-600 group-hover:text-gray-100 text-lg mt-3 leading-relaxed transition-colors duration-500 text-center">
                 {feature.description}
               </p>
             </div>

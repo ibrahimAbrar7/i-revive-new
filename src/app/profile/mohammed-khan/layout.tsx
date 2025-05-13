@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Mohammed Khan – Visionary Leader & CEO of i-Revive | Health & Wellness ",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Mohammed Khan, CEO of Delta Group of Companies and a passionate entrepreneur, leads i-Revive with  a vision to revolutionize healthcare. His holistic approach focuses on the whole person, empowering people to live healthier and stronger lives",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Mohammed Khan CEO",
+  "i-Revive CEO",
+  "visionary healthcare leader",
+  "holistic healing advocate",
+  "entrepreneur healthcare",
+  "Delta Group of Companies",
+  "health and wellness leader",
+  "i-Revive CEO vision",
+  "wellness movement leader",
+  "healthcare transformation"
+],
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Mohammed Khan – Visionary Leader & CEO of i-Revive | Health & Wellness ",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Mohammed Khan, CEO of Delta Group of Companies and a passionate entrepreneur, leads i-Revive with  a vision to revolutionize healthcare. His holistic approach focuses on the whole person, empowering people to live healthier and stronger lives",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Mohammed Khan – Visionary Leader & CEO of i-Revive | Health & Wellness ",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Mohammed Khan, CEO of Delta Group of Companies and a passionate entrepreneur, leads i-Revive with  a vision to revolutionize healthcare. His holistic approach focuses on the whole person, empowering people to live healthier and stronger lives",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

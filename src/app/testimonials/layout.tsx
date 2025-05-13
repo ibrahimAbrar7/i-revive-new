@@ -12,18 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Hijama Therapy Reviews | i-Revive Client Testimonials in Hyderabad",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Discover what clients are saying about i-Revive's professional Hijama (Cupping) therapy services in Hyderabad. Real testimonials showcasing natural healing and wellness.",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Hijama therapy reviews",
+  "cupping therapy testimonials",
+  "i-Revive Hyderabad reviews",
+  "best Hijama center Hyderabad",
+  "natural healing therapy feedback",
+  "wet cupping therapy reviews",
+  "client experiences Hijama",
+  "wellness treatment testimonials",
+  "alternative therapy Hyderabad",
+  "Hijama success stories"
+],
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Hijama Therapy Reviews | i-Revive Client Testimonials in Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
-    url: "https://www.i-revive.com/contact-us",
+      "Discover what clients are saying about i-Revive's professional Hijama (Cupping) therapy services in Hyderabad. Real testimonials showcasing natural healing and wellness.",
+    url: "https://www.i-revive.com/testimonials",
     images: [
       {
         url: "https://www.i-revive.com/i-revive-og-img.jpg",
@@ -37,13 +45,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Hijama Therapy Reviews | i-Revive Client Testimonials in Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Discover what clients are saying about i-Revive's professional Hijama (Cupping) therapy services in Hyderabad. Real testimonials showcasing natural healing and wellness.",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {
-    canonical: "https://www.i-revive.com/contact-us",
+    canonical: "https://www.i-revive.com/testimonials",
   },
   other: {
     "google-site-verification": "n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek",

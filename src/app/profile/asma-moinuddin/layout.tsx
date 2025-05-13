@@ -12,17 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Asma Moinuddin – MBBS, Naturopath & Holistic Health Expert | i-Revive Hyderabad",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Dr. Asma Moinuddin, an MBBS and MD in Naturopathic Medicine (USA), is committed to helping  individuals achieve optimal health through natural healing at i-Revive. She offers a holistic approach addressing both physical and emotional well-being",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Asma Moinuddin Naturopath",
+  "MBBS doctor Hyderabad",
+  "naturopathic medicine expert",
+  "holistic health practitioner",
+  "natural healing Hyderabad",
+  "lifestyle transformation doctor",
+  "i-Revive naturopath",
+  "sustainable health solutions",
+  "mind-body healing",
+  "emotional well-being Hyderabad"
+],
+
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Asma Moinuddin – MBBS, Naturopath & Holistic Health Expert | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Dr. Asma Moinuddin, an MBBS and MD in Naturopathic Medicine (USA), is committed to helping  individuals achieve optimal health through natural healing at i-Revive. She offers a holistic approach addressing both physical and emotional well-being",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Asma Moinuddin – MBBS, Naturopath & Holistic Health Expert | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Dr. Asma Moinuddin, an MBBS and MD in Naturopathic Medicine (USA), is committed to helping  individuals achieve optimal health through natural healing at i-Revive. She offers a holistic approach addressing both physical and emotional well-being",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

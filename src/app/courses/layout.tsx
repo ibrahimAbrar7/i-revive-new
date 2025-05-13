@@ -12,17 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Certified Hijama Cupping Therapy Courses in Hyderabad – Learn from Experts",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Join professional Hijama Cupping Therapy courses in Hyderabad with expert guidance and hands-on  training. Learn dry, wet, and fire cupping techniques with certification",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Hijama courses Hyderabad",
+  "cupping therapy training",
+  "certified Hijama course",
+  "wet cupping course",
+  "dry cupping training",
+  "Hijama training Hyderabad",
+  "learn Hijama therapy",
+  "cupping certification India",
+  "professional Hijama course",
+  "online Hijama classes"
+],
+
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Certified Hijama Cupping Therapy Courses in Hyderabad – Learn from Experts",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Join professional Hijama Cupping Therapy courses in Hyderabad with expert guidance and hands-on  training. Learn dry, wet, and fire cupping techniques with certification",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Certified Hijama Cupping Therapy Courses in Hyderabad – Learn from Experts",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Join professional Hijama Cupping Therapy courses in Hyderabad with expert guidance and hands-on  training. Learn dry, wet, and fire cupping techniques with certification",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

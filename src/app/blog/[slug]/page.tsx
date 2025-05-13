@@ -1,8 +1,5 @@
 "use client";
 
-import Footer from "@/app/components/Footer";
-import Header from "@/app/components/Header";
-import Topbar from "@/app/components/Topbar";
 import { blogPosts } from "@/data/ourBlogData"; // Assuming you have your blog posts here
 import { notFound, useParams } from "next/navigation";
 export default function BlogPost() {
@@ -17,12 +14,9 @@ export default function BlogPost() {
 
   return (
     <div>
-      <Topbar />
-      <Header />
       <div className="px-4">
       {post.content}
       </div>
-      <Footer />
     </div>
   );
 }

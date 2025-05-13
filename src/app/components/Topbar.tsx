@@ -35,13 +35,11 @@ const Topbar = () => {
           <FaUserDoctor
             className="text-blue-600"
             size={24}
-            title="Male Therapist"
           />
           <FaUserDoctor
             className="text-pink-500"
             size={24}
             style={{ transform: "scaleX(-1)" }}
-            title="Female Therapist"
           />
         </div>
         <div className="flex space-x-4 justify-center items-center lg:pr-5">

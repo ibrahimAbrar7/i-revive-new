@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Book Hijama (Cupping Therapy) for Women & Men | i-Revive Hyderabad",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Easily book your Hijama (cupping therapy) session at i-Revive in Hyderabad. We offer professional cupping therapy for both women and men to support natural healing and wellness.",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "book Hijama therapy Hyderabad",
+  "cupping therapy for women",
+  "cupping therapy for men",
+  "Hijama appointment online",
+  "i-Revive booking Hyderabad",
+  "men’s cupping therapy",
+  "women’s cupping therapy",
+  "natural healing therapy Hyderabad",
+  "Hijama center for men and women",
+  "schedule cupping session Hyderabad"
+],
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Book Hijama (Cupping Therapy) for Women & Men | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Easily book your Hijama (cupping therapy) session at i-Revive in Hyderabad. We offer professional cupping therapy for both women and men to support natural healing and wellness.",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Book Hijama (Cupping Therapy) for Women & Men | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Easily book your Hijama (cupping therapy) session at i-Revive in Hyderabad. We offer professional cupping therapy for both women and men to support natural healing and wellness.",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

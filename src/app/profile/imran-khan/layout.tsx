@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Imran Khan – Certified Hijama & Ruqya Practitioner | i-Revive Hyderabad",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
-  keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+    "Imran Khan is a certified Hijama (cupping therapy) expert with training from Turkey, the US, and the UK. A skilled Raqi mentored by Sheikh Abu Nadeer (RuqyaHealing UK), he offers both physical and metaphysical healing at i-Revive, Hyderabad.",
+ keywords: [
+  "Imran Khan Hijama therapist",
+  "certified cupping practitioner",
+  "Ruqya healer Hyderabad",
+  "i-Revive Hijama expert",
+  "cupping therapy for men and women",
+  "traditional Islamic healing",
+  "trained Hijama therapist UK US Turkey",
+  "Raqi Imran Khan",
+  "physical and metaphysical healing",
+  "Sunnah-based cupping therapy"
+],
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Imran Khan – Certified Hijama & Ruqya Practitioner | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Imran Khan is a certified Hijama (cupping therapy) expert with training from Turkey, the US, and the UK. A skilled Raqi mentored by Sheikh Abu Nadeer (RuqyaHealing UK), he offers both physical and metaphysical healing at i-Revive, Hyderabad.",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Imran Khan – Certified Hijama & Ruqya Practitioner | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Imran Khan is a certified Hijama (cupping therapy) expert with training from Turkey, the US, and the UK. A skilled Raqi mentored by Sheikh Abu Nadeer (RuqyaHealing UK), he offers both physical and metaphysical healing at i-Revive, Hyderabad.",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

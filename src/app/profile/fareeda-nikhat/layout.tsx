@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Fareeda Nikhat – Experienced OB-GYN & Feto-Maternal Specialist | i-Revive Hyderabad",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Dr. Fareeda Nikhat, a highly respected OB-GYN and Fetal Medicine expert with 19+ years of experience, offers expert maternal care and combines her medical expertise with Hijama Cupping at i-Revive, Hyderabad.",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Fareeda Nikhat OB-GYN",
+  "fetal medicine specialist",
+  "high-risk pregnancy expert",
+  "i-Revive maternal health",
+  "maternal care Hyderabad",
+  "FRCOG MRCOG Dubai",
+  "women’s health expert",
+  "Hijama for maternal health",
+  "feto-maternal medicine",
+  "expert pregnancy guidance"
+],
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Fareeda Nikhat – Experienced OB-GYN & Feto-Maternal Specialist | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Dr. Fareeda Nikhat, a highly respected OB-GYN and Fetal Medicine expert with 19+ years of experience, offers expert maternal care and combines her medical expertise with Hijama Cupping at i-Revive, Hyderabad.",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Fareeda Nikhat – Experienced OB-GYN & Feto-Maternal Specialist | i-Revive Hyderabad",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Dr. Fareeda Nikhat, a highly respected OB-GYN and Fetal Medicine expert with 19+ years of experience, offers expert maternal care and combines her medical expertise with Hijama Cupping at i-Revive, Hyderabad.",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {

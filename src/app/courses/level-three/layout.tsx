@@ -12,17 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONTACT US | i-Revive Body & Soul",
+  title: "Level 3 Hijama Mastery Course in Hyderabad – Personal Mentorship & Advanced Holistic Healing",
   description:
-    "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+    "Enroll in the Level 3 Hijama Mastery Course in Hyderabad. Get 4 weeks of personalized mentorship, 15  hours of one-on-one training, live case exposure, and advanced holistic healing techniques integrating Sunnah and science",
   keywords: [
-    "Hijama benefits and reviews Hyderabad",
-    "Top-rated Hijama clinics Hyderabad",
-  ],
+  "Level 3 Hijama course Hyderabad",
+  "Hijama personal mentorship training",
+  "advanced cupping therapy Hyderabad",
+  "holistic healing with Hijama",
+  "master Hijama course India",
+  "one-on-one Hijama training",
+  "Sunnah-based Hijama mastery",
+  "metaphysical healing course",
+  "live Hijama case training",
+  "professional Hijama certification Hyderabad"
+],
+
   openGraph: {
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Level 3 Hijama Mastery Course in Hyderabad – Personal Mentorship & Advanced Holistic Healing",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Enroll in the Level 3 Hijama Mastery Course in Hyderabad. Get 4 weeks of personalized mentorship, 15  hours of one-on-one training, live case exposure, and advanced holistic healing techniques integrating Sunnah and science",
     url: "https://www.i-revive.com/contact-us",
     images: [
       {
@@ -37,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CONTACT US | i-Revive Body & Soul",
+    title: "Level 3 Hijama Mastery Course in Hyderabad – Personal Mentorship & Advanced Holistic Healing",
     description:
-      "Visit our Clinic. Address: 6th floor, Mawin Zamzam, opposite Prince Hotel, Mehdipatnam, Hyderabad, Telangana 500028, India. Call: +91-8009944335",
+      "Enroll in the Level 3 Hijama Mastery Course in Hyderabad. Get 4 weeks of personalized mentorship, 15  hours of one-on-one training, live case exposure, and advanced holistic healing techniques integrating Sunnah and science",
     images: ["https://www.i-revive.com/i-revive-og-img.jpg"],
   },
   alternates: {
